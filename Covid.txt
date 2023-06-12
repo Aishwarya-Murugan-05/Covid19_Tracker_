@@ -1,0 +1,11 @@
+create database covid19;
+
+ 
+
+create table todayCases(_id int not null auto_increment primary key,countries varchar(500),cases double,
+deaths double,recovered double,todayDate varchar(200),test double );
+
+ 
+
+create table overallCases(_id int not null auto_increment primary key,countries varchar(500),
+cases double,deaths double,recovered double,test double);
